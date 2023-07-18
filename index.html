@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Explore sem limites</title>
+</head>
+
+<body>
+  <main>
+    <section class="header container">
+      <div>
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <a href="#"><img src="./assets/seta.png" alt="Imagem de uma seta"></a>
+      </div>
+
+      <div>
+        <img src="./assets/astronauta.png" alt="Imagem de um astronauta entre planetas">
+      </div>
+    </section>
+
+    <section class="infos">
+      <div class="wrapper-card container">
+        <div class="card-item">
+          <img src="./assets/planeta-amarelo.png" alt="Imagem de um planeta amarelo">
+          <h2>Não pare nunca</h2>
+          <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+        </div>
+
+        <div class="card-item">
+          <img src="./assets/planeta-azul.png" alt="Imagem de um planeta azul">
+          <h2>Só volta</h2>
+          <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+        </div>
+
+        <div class="card-item">
+          <img src="./assets/planeta-rosa.png" alt="Imagem de um planeta rosa">
+          <h2>Siga seu ritmo</h2>
+          <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2>Entre em contato</h2>
+        <form action="" onsubmit="enviar2(this)">
+          <div class="wrapper-input user">
+            <label for="nome">Seu nome</label>
+            <input name="nome" type="text" id="nome" placeholder="Seu nome">
+          </div>
+
+          <div class="wrapper-input email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email">
+          </div>
+
+          <div class="wrapper-input">
+            <label for="comments"></label>
+            <textarea id="comments" placeholder="Digite sua mensagem aqui..." rows="5"></textarea>
+          </div>
+
+          <button type="button" onclick="enviar()">Enviar Mensagem</button>
+          <button>Enviar Mensagem</button>
+        </form>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2023 - Rocketseat Explorer</p>
+    </footer>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
